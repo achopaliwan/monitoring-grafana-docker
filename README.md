@@ -20,13 +20,13 @@ From your project directory:
 Confirm all services are running:  
 > docker ps  
   
-You should se:  
-prometheus  
-grafana  
-cadvisor  
-node_exporter  
-raptor_web  
-falcon_web  
+You should see:  
+*prometheus*  
+*grafana*  
+*cadvisor*  
+*node_exporter*  
+*raptor_web*  
+*falcon_web*  
   
 ## 5️⃣ Access Dashboards  
 | Service           | URL                                                            | Description                          |
@@ -48,8 +48,8 @@ Then:
 Import Dashboard ID 893 (Node Exporter Full)  
 Import Dashboard ID 13946 or 1860  (Docker & cAdvisor metrics)  
   
-Docker and system monitoring :  
+Docker and system monitoring:  
 <img width="1913" height="961" alt="image" src="https://github.com/user-attachments/assets/530e7f01-203b-4688-8cf9-ff901514d9ee" />  
   
-Docker-cAdvisor :  
+Docker-cAdvisor:  
 <img width="1918" height="951" alt="image" src="https://github.com/user-attachments/assets/f5cb8a51-a683-4f03-be39-7fb4530461e4" />  
